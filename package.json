@@ -1,6 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "http": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.0.0"
   }
 }
