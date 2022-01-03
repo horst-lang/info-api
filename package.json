@@ -1,9 +1,24 @@
 {
-  "type": "module",
+  "name": "info-api",
+  "version": "1.0.0",
+  "description": "The Horst DI-API is a tool used to gather recent informations on the current Horst development state for the [Horst website](https://horstlang.org) The API is made with node.js and mainly uses discord.js.  Link to api: https://horst-infos.herokuapp.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horst-lang/info-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horst-lang/info-api/issues"
+  },
+  "homepage": "https://github.com/horst-lang/info-api#readme",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "node-fetch": "^3.0.0"
+    "discord.js": "^13.5.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security"
   }
 }
